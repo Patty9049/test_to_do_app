@@ -1,0 +1,15 @@
+.low {
+    border: 1px solid #55efc4;
+    padding: 10px;
+    border-radius: 5px;
+ }
+.medium {
+    border: 2px solid #ffeaa7;
+    padding: 10px;
+    border-radius: 5px;
+}
+.high {
+    border: 3px solid #ff7675;
+    padding: 10px;
+    border-radius: 5px;
+}

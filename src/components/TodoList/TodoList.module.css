@@ -1,0 +1,77 @@
+.low {
+  border: 1px solid #55efc4;
+  padding: 10px;
+  border-radius: 5px;
+}
+.medium {
+  border: 2px solid #ffeaa7;
+  padding: 10px;
+  border-radius: 5px;
+}
+.high {
+  border: 3px solid #ff7675;
+  padding: 10px;
+  border-radius: 5px;
+}
+.title {
+  text-shadow: -6px -6px 10px #f89898, 6px 6px 10px rgb(250, 215, 61);
+}
+.completed {
+  text-decoration: line-through;
+}
+.todolist {
+  list-style: none;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+li {
+  background-color: rgb(255, 255, 255);
+  max-width: 700px;
+}
+.inputTitle {
+  margin: 10px auto;
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ffeaa7;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.inputContent {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: none;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+.close {
+  position: relative;
+  opacity: 0;
+}
+.close::after {
+  position: absolute;
+  top: -100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "\274c";
+  font-size: 80px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+}
+.completed {
+  opacity: 0.5;
+}
